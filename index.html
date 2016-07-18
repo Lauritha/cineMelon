@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Catalogo de peliculas</title>
+	  <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row fondo-amarillo">
+				<div class="col-md-12">
+					<h1>Cine Melón</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="controls">
+  						<label><h2>Escoge una categoria:</h2></label>
+  						<button class="filter" data-filter="all">Todos</button>
+  						<button class="filter" data-filter=".category-1">Acción</button>
+  						<button class="filter" data-filter=".category-2">Crimen</button>
+  						<button class="filter" data-filter=".category-3">Familiar</button>
+  						<button class="filter" data-filter=".category-4">Terror</button>
+					</div>
+					<div id="Container" class="container">
+  						<div class="mix category-4" data-myorder="1"><a href="apocalypto.html#apocalypto"><img src="imagenes/1663709_249px.jpg" alt=""></a>Apocalypto</div>
+						<div class="mix category-3" data-myorder="2"><a href="apocalypto.html#piratasCaribe"><img src="imagenes/1663711_249px.jpg" alt=""></a>Piratas del Caribe</div>
+						<div class="mix category-1 category-3" data-myorder="3"><img src="imagenes/1663734_249px.jpg" alt="">Corazón Valiente</div>
+						<div class="mix category-1" data-myorder="4"><img src="imagenes/1663746_249px.jpg" alt="">Matrix</div>
+						<div class="mix category-1 category-2" data-myorder="5"><img src="imagenes/1663768_249px.jpg" alt="">Ong-Bak</div>
+						<div class="mix category-1 category-2" data-myorder="6"><img src="imagenes/1663796_249px.jpg" alt="">La Roca</div>
+						<div class="mix category-4" data-myorder="7"><img src="imagenes/1663807_249px.jpg" alt="">Calles de Fuego</div>
+						<div class="mix category-3" data-myorder="8"><img src="imagenes/1780450_249px.jpg" alt="">Me Ligue en Apuros</div>
+						<div class="mix category-3" data-myorder="9"><img src="imagenes/253110_249px.jpg" alt="">40 Días y 40 Noches</div>
+						<div class="mix category-1 category-3" data-myorder="10"><img src="imagenes/2682854_249px.jpg" alt="">Gladiator</div>
+						<div class="mix category-4" data-myorder="11"><img src="imagenes/2786223_249px.jpg" alt="">Monstruoso</div>
+						<div class="mix category-1 category-3" data-myorder="12"><img src="imagenes/2853551_249px.jpg" alt="">Tomb Rider</div>
+  						<div class="gap"></div>
+  						<div class="gap"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,160 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+}
+body{
+	background-color: #000000;
+}
+.btn-info {
+    color: #FFFFFF;
+    background-color: #0D73FE;
+    border: #FFFFFF 2px solid;
+    margin: 5% 0;
+}
+iframe{
+	margin-left: 5%;
+}
+.video{
+	margin: 10% 0;
+}
+.actor{
+	width: 35%;
+	height: 30%;
+	border-radius: 40%;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+img{
+	max-width: 100%;
+}
+.primero, .segundo {
+	margin: 30px 0;
+}
+.c-select{
+	font-size: 20px;
+	background-color: #F0AD4E;
+	width: 20%;
+	color: #FFFFFF;
+	border: none;
+	padding: 3px;
+	margin-left: 2%;
+}
+.fondo-amarillo{
+	background-color: #F0AD4E;
+	padding: 1%;
+}
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, button{
+  font-family: 'Helvetica Neue', arial, sans-serif;
+}
+
+.controls{
+  padding: 2%;
+  color: #eee;
+}
+.sinopsis{
+	color: #FFFFFF;
+}
+
+label{
+  font-weight: 300;
+  margin: 0 .4em 0 0;
+}
+
+button{
+  display: inline-block;
+  padding: .4em .8em;
+  background: #F0AD4E;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: 300;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.active{
+  background: #FFFFFF;
+  color: #F0AD4E;
+}
+
+button:focus{
+  outline: 0 none;
+}
+
+button + label{
+  margin-left: 1em;
+}
+
+.container{
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0.1px;
+  
+  -webkit-backface-visibility: hidden;
+}
+
+.container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container .mix,
+.container .gap{
+  display: inline-block;
+  width: 49%;
+}
+
+.container .mix{
+  text-align: left;
+  margin-bottom: 2%;
+  display: none;
+}
+
+.container .mix.category-1{
+  border-top: 2px solid limegreen;
+}
+
+.container .mix.category-2{
+  border-top: 2px solid yellow;
+}
+
+.container .mix:after{
+  content: attr(data-myorder);
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 4% 6%;
+  font-weight: 700;
+}
+
+.container .mix:before{
+  content: '';
+  display: inline-block;
+  padding-top: 60%;
+}
+
+@media all and (min-width: 420px){
+  .container .mix,
+  .container .gap{
+    width: 32%;
+  }
+}
+
+@media all and (min-width: 640px){
+  .container .mix,
+  .container .gap{
+    width: 23.5%;
+  }
+}
